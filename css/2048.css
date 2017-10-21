@@ -16,27 +16,50 @@ header h1 {
     font-weight: bold
 }
 
+.center {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
 header #newGame {
-    background-color: #8f7a66;
+    /*background-color: #8f7a66;
     color: white;
     border-radius: 12px;
     width: 100px;
     font-family: Times;
     font-size: 1.3em;
-    padding: 10px;
+    padding: 10px;*/
     text-decoration: none;
+    display: block;
+    background: #ef5350;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #fff;
 }
 
 header #newGame:hover {
     background-color: rosybrown;
-    padding: 12px;
+    padding: 6px 12px;
     color: chartreuse;
 }
 
-header p {
-    font-size: 2em;
-    margin: 20px auto;
+.score {
     font-family: Times;
+    font-size: 20px;
+    line-height: 31px;
+}
+
+.score span {
+    color: red;
 }
 
 #box-container {
